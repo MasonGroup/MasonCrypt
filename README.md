@@ -1,7 +1,7 @@
 # MasonCrypt
 This tool is one of the best encryption tools as it installs the victim
 ---
-![image](https://github.com/876N/MasonCrypt/assets/133999409/e8ad84ce-6b9e-4a71-bc00-409db8477418)
+![image](https://github.com/876N/MasonCrypt/assets/133999409/e2c7c2d3-3611-4072-928e-243026f4c16a)
 ---
 ![Bsodwindows10](https://github.com/876N/MasonCrypt/assets/133999409/92285b47-b734-41e0-bd5a-3bd9484e9e98)
 ---
