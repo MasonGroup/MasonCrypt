@@ -11,3 +11,4 @@ When activated, Anti-Kill will prevent the victim from shutting down the payload
 ![Bsodwindows10](https://github.com/876N/MasonCrypt/assets/133999409/92285b47-b734-41e0-bd5a-3bd9484e9e98)
 ---
 I am not responsible for your actions
+---
